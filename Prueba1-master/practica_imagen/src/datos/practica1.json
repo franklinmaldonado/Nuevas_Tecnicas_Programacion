@@ -22,5 +22,11 @@
         "color": {"backgroundColor":"green"},
         "nombre":"imágen de prueba 4",
         "flag": true
+    },
+    {
+        "id":4,
+        "color": {"backgroundColor":"gray"},
+        "nombre":"imágen de prueba 5",
+        "flag": true
     }
 ]
