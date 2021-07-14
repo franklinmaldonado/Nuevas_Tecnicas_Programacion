@@ -1,8 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import ingreso from './componentes/ingreso';
+import React from 'react';
 
-function App() {
+
+class App extends React.Component{
+  imprimirNombre =()=>{
+    console.log("Franklin Maldonado")
+  }
+  
+
+
+render () {
   return (
     <div className="App">
       
@@ -24,5 +33,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
