@@ -1,0 +1,14 @@
+[
+    {
+        "id":0,
+        "color": {"backgroundColor":"18"},
+        "nombre":"Juan Paredes",
+        "flag": true
+    },
+    {
+        "id":1,
+        "color": {"backgroundColor":"30"},
+        "nombre":"Camilo Torres",
+        "flag": true
+    }
+]
