@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ingreso from './componentes/ingreso';
+import Ingreso from './componentes/Ingreso';
 import React from 'react';
 
 
@@ -20,7 +20,7 @@ render () {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ingreso />
+        <Ingreso />
         <a
           className="App-link"
           href="https://reactjs.org"
