@@ -13,9 +13,6 @@ class Elemento extends React.Component{
         <textarea style= {elem.color} onClick={this.eliminarElemento}>
             {elem.nombre}
         </textarea>
-        <p>
-         
-        </p>
         </div>
         
     }
