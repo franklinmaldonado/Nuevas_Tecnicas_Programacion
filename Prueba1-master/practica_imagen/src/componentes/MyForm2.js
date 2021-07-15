@@ -24,14 +24,14 @@ class MyForm2 extends React.Component{
             <form onSubmit={this.myOnSubmit} >
                 <input name="color"
                     type="text" 
-                    placeholder="Ingrese el color" 
+                    placeholder="Ingrese su nombre y apellido" 
                     onChange={this.myOnChange} 
                     value={this.state.color} />
                 <br />
                 <br />
                 <input name="nombre"
                     type="text" 
-                    placeholder="Ingrese el nombre de la imagen" 
+                    placeholder="Ingrese su edad" 
                     onChange={this.myOnChange} 
                     value={this.state.nombre}/>
                 <br /><br />

@@ -26,14 +26,14 @@ class MiForm extends React.Component{
             <form onSubmit={this.myOnSubmit} >
                 <input name="color"
                 type="text" 
-                placeholder="ingrese un color" 
+                placeholder="Ingrese su Nombre y Apellido" 
                 onChange={this.myOnChange} 
                 value={this.state.color} />
                 <br />
                 <br />
                 <input name="nombre"
                 type="text" 
-                placeholder="ingrese un nombre de imagen" 
+                placeholder="Ingrese su edad" 
                 onChange={this.myOnChange} 
                 value={this.state.nombre} />
                 <br />
